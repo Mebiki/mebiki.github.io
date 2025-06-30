@@ -1,0 +1,99 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    padding: 0%;
+    background-color:lightyellow;
+    color: black;
+}
+
+header {
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px 6px lightblue;
+    padding: 10px 30px;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 900s;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.login-btn {
+    background-color: blue;
+    color: white;
+    border-radius: 10px 15px;
+    border: none;
+    outline: none;
+}
+
+.login-btn:hover {
+    box-shadow: 2px 2px 30px rgb(169, 94, 239), inset 2px 2px 20px rgb(99, 99, 220);
+    background-color: black;
+    color: azure;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+
+}
+
+.main-container {
+    width: 80%;
+    height: 100vh;
+    background-color: gray;
+    margin: 30px auto;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+input {
+    width: 90%;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: wheat;
+}
+
+.publish-btm {
+
+    background-color: green;
+    height: 50px;
+    width: 80%;
+    color: black;
+    font-size: 20px;
+}
+
+.cancel-btn {
+    background-color: red;
+    height: 50px;
+    width: 80%;
+    color: black;
+    font-size: 20px;
+}
+
+button {
+    margin: 10px;
+}
+textarea{
+    width: 80%;
+    background-image: linear-gradient(45deg,wheat);
+    box-shadow: 2px 2px 15px wheat;
+    border-radius: 20px;
+}
+p{
+    font-size: 20px;
+    font-weight: 900;
+}

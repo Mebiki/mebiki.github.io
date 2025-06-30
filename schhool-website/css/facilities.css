@@ -1,0 +1,134 @@
+.slider-section img {
+  height: 80vh;
+  width: 100vw;
+  object-fit: cover;
+}
+.slider-section {
+  position: relative;
+}
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.title1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 30px #000000bf;
+}
+.title2 {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 30px #000000bf;
+}
+.join-us,
+.learn-more {
+  font-weight: 600;
+  padding: 20px 30px;
+  font-size: 20px;
+}
+.facilities-banner {
+  height: 50vh;
+  width: 100vw;
+  background-image: url("https://media.istockphoto.com/id/1221377623/photo/backside-graduation-hats-during-commencement-success-graduates-of-the-university-concept.jpg?s=2048x2048&w=is&k=20&c=cCXQR1g7k-9FrKadhLMijU_-xd-2AItaIF7HeEFn3p0=");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+    background-color: lightgray;
+  .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(54, 49, 49, 0.466);
+    position: absolute;
+  }
+  h1,
+  p {
+    z-index: 1;
+    text-shadow: 1px 2px 4px #000000bf;
+  }
+  h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+.facilities-section {
+  min-height: 50vh;
+  background-color: lightgrey;
+  padding: 80px;
+}
+.facilities-title {
+  text-align: center;
+  margin-bottom: 50px;
+  h1 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+    color: #667eea;
+  }
+  p {
+    color: #6c757d;
+  }
+}
+footer {
+  background-color: #34495e;
+  color: aliceblue;
+  display: flex;
+  height: 50vh;
+  flex-direction: column;
+}
+.footer-content {
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+  background-color: #34495e;
+  color: aliceblue;
+}
+.footer-bootom {
+  text-align: center;
+}
+.facilities-card {
+  margin: 50px 50px;
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  padding-right: 30px;
+
+  h3 {
+    padding: 20px;
+    font-size: 30px;
+  }
+  p {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .card {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px 0px #0000002e;
+    position: relative;
+    height: 500px;
+
+    img {
+      height: 30%;
+      object-fit: cover;
+      width: 100%;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+  }
+}

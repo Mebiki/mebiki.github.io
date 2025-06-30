@@ -1,0 +1,152 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    padding: 0%;
+    background-color: aqua;
+
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px 6px lightblue;
+    padding: 10px 30px;
+    position:sticky;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.login-btn,.readmode {
+    background-color: blue;
+    color: azure;
+    border-radius: 10px 15px;
+    border: none;
+    outline: none;
+}
+
+.login-btn:hover {
+    box-shadow: 2px 2px 30px rgb(169, 94, 239), inset 2px 2px 20px rgb(99, 99, 220);
+    background-color: white;
+    color: black;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+
+}
+
+.hero {
+    text-align: center;
+
+
+}
+
+.create-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: auto;
+}
+
+.hero button :hover {
+    background-color: aqua;
+    box-shadow: 2px 2px 30px cyan;
+    color: black;
+    font-weight: 900;
+}
+
+.card-container {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.card {
+    width: 28%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px lightgrey;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 0%;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.fooetr-section a {
+    color: rgb(176, 153, 153);
+    text-decoration: none;
+
+
+}
+
+.footer-bottom {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+
+}
+.Blog_detail_tilte{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+.Blog_detail_tilte h1{
+    font-size: 30px;
+}
+.Bolg-metadata{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.auther,.reading time,.publish date
+{
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    p{
+        margin: 0;
+        padding: 0;
+
+
+    }
+}

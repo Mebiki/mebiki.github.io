@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Project 2</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="form-container">
+        <h3><span class="h3-span">Certificate</span>  Generator</h3>
+        <input type="text" name="" id="studentName" placeholder="Student_Name:" required>
+        <input type="text" name="" id="symbolNo" placeholder="Symbol_Number:" required>
+        <input type="date" name="" id="dob" placeholder="Date_of_Birth:" required>
+        <input type="text" name="" id="school" placeholder="School_Name:" required>
+
+        <h3>Subject Marks (Out of 100)</h3>
+
+        <input type="number" name="" id="english" placeholder="English" max="100" min="0" required>
+        <input type="number" name="" id="nepali" placeholder="Nepali" max="100" min="0" required>
+        <input type="number" name="" id="Science" placeholder="Science" max="100" min="0" required>
+        <input type="number" name="" id="math" placeholder="Math" max="100" min="0" required>
+        <input type="number" name="" id="optmath" placeholder="Opt.Math" max="100" min="0" required>
+        <input type="number" name="" id="cpp" placeholder="C++" max="100" min="0" required>
+        <input type="number" name="" id="hardware" placeholder="Computer_Hardware" max="100" min="0" required>
+        <input type="number" name="" id="dbms" placeholder="DBMS" max="100" min="0" required>
+        <input type="number" name="" id="microprocessor" placeholder="Microprocessor" max="100" min="0" required>
+
+        <button onclick="generateCertificate">Generate Certification</button>
+
+    </div>
+
+    <div class="marksheet-container">
+        <div class="header">
+            <div class="logo">
+                <img src="OIP.jpg" alt="">
+            </div>
+            <div class="header-title">
+                <h2>GOVERNMENT OF NEPAL</h2>
+                <h4>Ministry of Education</h4>
+                <h3>Office Of the Controller of Examination</h3>
+                <h3>SEE(Secondary Education Exmination)</h3>
+            </div>
+        </div>
+        <hr />
+        <div>
+            <p> <b>The Marks secured by </b> <span class="certName"></span> </p>
+            <p><b>Date of birth:</b><span class="certSymbolNo"></span></p>
+            <br><br>
+            <p><b>Roll no: </b>6<b>Symblo no: </b>8523738(l)</p>
+            <p>Of <span class="certSchoolname"></span>
+            </p>
+
+            <br>
+            <p> (2082) in the annual of the examination</p>
+        </div>
+
+
+        <table border="1" cellpadding="4">
+            <thead>
+                <tr>
+                    <th>Serial number</th>
+                    <th>Subject</th>
+                    <th>Full marks </th>
+                    <th>Pass marks</th>
+                    <td colspan="2">Obtained marks</th>
+                    <th>Total</th>
+                    <th>Grade</th>
+                    <th>Remark</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>TH</th>
+                    <th>PR</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td >English</td>
+                    <td>100</td>
+                    <td>40</td>
+                    <td>70</td>
+                    <td>25</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Nepali</td>
+                    <td>100</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>25</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Science</td>
+                    <td>100</td>
+                    <td>40</td>
+                    <td>45</td>
+                    <td>25</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr>
+                    <td>4</td>
+                    <td>Math</td>
+                    <td>100</td>
+                    <td>40</td>
+                    <td>49</td>
+                    <td>25</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr>
+                    <td>5</td>
+                    <td>Opt.math</td>
+                    <td>100</td>
+                    <td>40</td>
+                    <td>42</td>
+                    <td>25</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>C++</td>
+                    <td>100</td>
+                    <td>40</td>
+                    <td>40</td>
+                    <td>25</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td>Computer_hardware</td>
+                    <td>100</td>
+                    <td>40</td>
+                    <td>70</td>
+                    <td>25</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td>DBMS</td>
+                    <td>100</td>
+                    <td>40</td>
+                    <td>68</td>
+                    <td>25</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr>
+                    <td>9</td>
+                    <td>Microprocessor</td>
+                    <td>100</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>25</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="6">Full marks</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td colspan="6"> Grand total</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td colspan="6"> result</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="marksheet-footer">
+            <div>
+                <p>Checked By : Shanothimi Bhaktapur</p>
+                <p>Date Of issue :</p>
+            </div>
+            <p>controller</p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
